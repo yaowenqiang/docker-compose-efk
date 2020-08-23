@@ -17,3 +17,4 @@ echo "{\"key\": 1234}" | fluent-cat test
 logger -d -n 127.0.0.1 --port 5140 "hello"
 ```
 
+to exec/debug the fluent container ,use a debug image,i.e fluent/fluent-bit:1.5-debug
